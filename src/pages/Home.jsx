@@ -1,5 +1,6 @@
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
+import { Navbar } from "@/components/Navbar";
 
 export const Home = () => {
     return (
@@ -10,7 +11,9 @@ export const Home = () => {
 
         {/*Background Effects*/}
         <StarBackground/>
+
         {/*Navbar*/}
+        <Navbar/>
 
 
 
@@ -28,10 +31,6 @@ export const Home = () => {
 
 
 
-
-
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the home page of our application.</p>
         </div>
     );
 }
